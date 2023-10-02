@@ -1,0 +1,162 @@
+
+@media screen and (min-width: 1024px) {
+body{background-color: rgb(0, 0, 0);}
+
+header{
+    text-align: center;  
+}
+
+.navbar {text-decoration: none;}
+
+nav ul li { list-style: none;
+display: inline-block;
+margin: 0 40px;}
+
+a{ text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+color: white;}
+
+h4 {text-align: center;
+    margin-top: 70px;
+    height: 200px;
+    position: relative;
+    color: white;}
+
+h3{color: red;}
+
+.grids{
+    display: grid;
+}
+
+p {text-align: center;
+    color: red;}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 600px;
+    justify-content: center;
+    justify-items: center;}
+
+
+.foo-t {color: white;}
+.icon-uno {text-align: right;}
+
+h6 {text-align: center;
+color: white;}
+
+.pedidos-ya {
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 5px 20px}
+
+.nos-otros {color: white;}
+
+form{margin-top: 20px;}
+label{display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.contac-h1{display: block;
+color: red;}
+.saber-de {color: white;}
+.dt-p {color: white;}
+ilabel
+
+.reserva-5{text-decoration: underline;
+color: red;}
+
+.reser-2 {color: white;}}
+
+@media screen and (min-width: 768px) {
+
+body {background-color: black;}
+
+nav ul li { list-style: none;
+    display: inline-block;
+    margin: 0 40px;}
+
+a{ text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;}
+
+h3{color: red;}
+
+p {text-align: center;
+    color: red;}
+
+h6 {text-align: center;
+        color: white;}
+
+header 
+    {text-align: center;}
+
+h4 {text-align: center;
+        margin-top: 70px;
+        margin-left: 40px;
+        height: 150px;
+        position: relative;
+        color: white;}
+
+.tarjetas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 450px 450px;
+            justify-content: center;
+            justify-items: center;}
+        
+        footer{flex-direction: column;
+        text-align: center;}
+        
+.foo-t {color: white;}
+
+.direc {color: white;
+margin-top: 35px;}
+}
+
+
+
+@media (max-width: 320px){
+    body{background-color: rgb(0, 0, 0);}
+
+header{
+    text-align: center;  
+}
+.narbar {background-color: black;}
+
+nav ul li { list-style: none;
+display: flex;
+flex-direction: column;
+margin: 0 40px;}
+
+a{ text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+color: white;}
+
+h4 {text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 30px;
+    }
+
+    p {text-align: center;
+        color: red;}
+    
+
+.tarjetas {grid-template-columns: 1fr;
+margin:10px 15px 15px 10px;}
+
+h6{text-align: center;}
+footer {flex-direction: column;
+text-align: center;}
+
+.direc {color: white;
+margin-top: 40px;}
+}
+
